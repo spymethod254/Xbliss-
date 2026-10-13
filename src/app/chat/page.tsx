@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
-import { useChat } from "ai/react";
+import { useChat } from react;
 import { useRouter } from "next/navigation";
 import { Link2, Menu, Plus, MessageSquare, LogOut, Copy, Check, Send, Sparkles } from "lucide-react";
 import ReactMarkdown from "react-markdown";
