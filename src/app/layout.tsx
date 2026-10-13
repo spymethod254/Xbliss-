@@ -3,15 +3,14 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "SafeBliss — Safe AI Companions for Friendship, Growth & Fun",
-  description:
-    "SafeBliss is the safe, 100% SFW alternative to AI companion apps. Chat with kind AI friends, mentors and coaches — with strict safety guardrails, privacy controls, and zero explicit content.",
+  title: "GWIJI AI - Your Intelligent Assistant",
+  description: "Free to use AI assistant for scripts, games, pictures, and motivation.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-[#07070f] text-white antialiased">{children}</body>
+      <body className="bg-black text-white antialiased">{children}</body>
     </html>
   );
 }
