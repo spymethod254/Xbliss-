@@ -8,7 +8,7 @@ import { and, eq } from "drizzle-orm";
 
 const openai = createOpenAI({
   baseURL: "https://text.pollinations.ai/openai",
-  apiKey: "dummy-key",
+  apiKey: "sk_5j0fQWHYa3MCmkwvEg5BDtAYwuMVKCxO",
 });
 
 export async function POST(req: Request) {
